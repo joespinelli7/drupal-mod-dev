@@ -9,17 +9,13 @@ namespace Drupal\rsvplist\Form;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Render\Element\Form;
-use Drupal\Core\Messenger\MessengerInterface;
+use Drupal\Core\Messenger\MessengerTrait;
 
 /**
  * Provides an RSVP Email form.
  */
 class RSVPForm extends FormBase {
-
-  public function __construct(MessengerInterface $messenger) {
-    $this->messenger = $messenger;
-  }
+  use MessengerTrait;
 
   /**
    * (@inheritdoc)
@@ -56,7 +52,7 @@ class RSVPForm extends FormBase {
    * (@inheritdoc)
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->messenger->addMessage('The form is working:)');
+    $this->messenger()->addMessage('The form is working:)');
   }
 
 }
