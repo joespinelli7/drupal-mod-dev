@@ -10,6 +10,7 @@ use Drupal\Core\Database\Database;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Messenger\MessengerTrait;
+use Drupal\Core\Render\Element\Form;
 
 /**
  * Provides an RSVP Email form.
@@ -46,6 +47,16 @@ class RSVPForm extends FormBase {
       '#value' => $nid,
     ];
     return $form;
+  }
+
+  /**
+   * (@inheritdoc)
+   */
+  public function validateForm(array &$form, FormStateInterface $form_state) {
+    $value = $form_state->getValue('email');
+    if ($value != \Drupal::service('email.validator')->isValid($value)) {
+      $form_state->setErrorByName('email', t('The email address %mail is not valid', ['%mail' => $value]));
+    }
   }
 
   /**
