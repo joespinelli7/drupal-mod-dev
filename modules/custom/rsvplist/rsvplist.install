@@ -58,15 +58,5 @@ function rsvplist_schema() {
     ),
     'primary key' => array('nid'),
   );
-  $schema['deez'] = array(
-    'description' => 'Tracks how big deez are.',
-    'fields' => array(
-      'nid' => array(
-        'description' => 'node id',
-        'type' => 'int',
-        'default' => 0,
-      ),
-    ),
-  );
   return $schema;
 }
