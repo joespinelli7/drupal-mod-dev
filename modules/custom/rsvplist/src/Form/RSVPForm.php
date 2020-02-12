@@ -63,7 +63,15 @@ class RSVPForm extends FormBase {
    * (@inheritdoc)
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $this->messenger()->addMessage('The form is working:)');
+    $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
+    db_insert('rsvplist')
+      ->fields(array(
+        'mail' => $form_state->getValue('email'),
+        'nid' => $form_state->getValue('nid'),
+        'uid' => $user->id(),
+        'created' => time(),
+      ))
+      ->execute();
+    $this->messenger()->addMessage(t('Thank you for RSVP:)'));
   }
-
 }
