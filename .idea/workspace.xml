@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a9c411-e5af-4259-b217-bc0ed76ac136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.links.menu.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/rsvplist/src/Plugin/Block/RSVPBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/rsvplist/src/Plugin/Block/RSVPBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.routing.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
