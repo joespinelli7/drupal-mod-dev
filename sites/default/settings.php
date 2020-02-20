@@ -748,7 +748,7 @@ $settings['entity_update_backup'] = TRUE;
  * development, etc) installations of this site. Typically used to disable
  * caching, JavaScript/CSS compression, re-routing of outgoing emails, and
  * other things that should not happen on development and testing sites.
- *
+ *chown username.username settings.php
  * Keep this code block at the end of this file to take full effect.
  */
 #
@@ -773,3 +773,5 @@ if (isset($_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR']) && file_exists($_SERVER['D
   require $_SERVER['DEVDESKTOP_DRUPAL_SETTINGS_DIR'] . '/loc_d8moddev_dd.inc';
 }
 // </DDSETTINGS>
+
+//$config['system.logging']['error_level'] = 'verbose';
