@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a9c411-e5af-4259-b217-bc0ed76ac136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.links.menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/rsvplist/config/install/rsvplist.settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/rsvplist/config/schema/rsvplist.schema.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/custom/rsvplist/src/Form/RSVPSettingsForm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/rsvplist/rsvplist.routing.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +149,7 @@
       <workItem from="1581626585435" duration="605000" />
       <workItem from="1581693227236" duration="3163000" />
       <workItem from="1582129381167" duration="1483000" />
+      <workItem from="1582210961193" duration="771000" />
     </task>
     <servers />
   </component>
@@ -231,19 +233,20 @@
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
     <state x="-1813" y="-473" key="SettingsEditor/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581459277114" />
-    <state x="940" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1581693232324">
+    <state x="940" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1582210978032">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="940" y="274" key="com.intellij.ide.util.TipDialog/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581693232324" />
+    <state x="940" y="274" key="com.intellij.ide.util.TipDialog/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@0.23.1680.1027" timestamp="1582210978032" />
     <state x="940" y="257" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581346721092" />
     <state x="-1803" y="-79" key="run.anything.popup" timestamp="1581016172966">
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
     <state x="-1803" y="-79" key="run.anything.popup/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581016172966" />
-    <state x="-1803" y="-401" width="670" height="676" key="search.everywhere.popup" timestamp="1581458621043">
+    <state x="-1803" y="-401" width="670" height="676" key="search.everywhere.popup" timestamp="1582153278029">
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
-    <state x="-1803" y="-401" width="670" height="676" key="search.everywhere.popup/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581458621043" />
+    <state x="-1803" y="-401" width="670" height="676" key="search.everywhere.popup/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1582153278029" />
     <state x="-1591" y="-193" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1580242614302">
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
