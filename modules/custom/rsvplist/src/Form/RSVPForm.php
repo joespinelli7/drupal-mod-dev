@@ -11,6 +11,7 @@ use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Messenger\MessengerTrait;
 use Drupal\Core\Render\Element\Form;
+use Drupal\jsonapi\JsonApiResource\Data;
 
 /**
  * Provides an RSVP Email form.
@@ -56,6 +57,19 @@ class RSVPForm extends FormBase {
     $value = $form_state->getValue('email');
     if ($value != \Drupal::service('email.validator')->isValid($value)) {
       $form_state->setErrorByName('email', t('The email address %mail is not valid', ['%mail' => $value]));
+      return;
+    }
+
+    $node = \Drupal::routeMatch()->getParameter('node');
+    // Check if email is already set up for this node
+    $select = Database::getConnection()->select('rsvplist', 'r');
+    $select->fields('r', ['nid']);
+    $select->condition('nid', $node->id());
+    $select->condition('mail', $value);
+    $results = $select->execute();
+    if (!empty($results->fetchCol())) {
+      // We found a row with the specified nid and email
+      $form_state->setErrorByName('email', t('The address %mail is already subscribed to the list.', ['%mail' => $value]));
     }
   }
 
