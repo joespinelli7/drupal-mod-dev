@@ -1,0 +1,6 @@
+services:
+  hid_redirect_unauthenticated_user.request_subscriber:
+    class: Drupal\redirect_unauthenticated_user\EventSubscriber\RedirectAnonymousSubscriber
+    tags:
+      - { name: event_subscriber }
+    arguments: ['@current_user', '@current_route_match', '@path.matcher']
