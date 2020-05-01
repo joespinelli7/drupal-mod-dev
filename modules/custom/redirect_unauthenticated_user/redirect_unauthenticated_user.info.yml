@@ -1,5 +1,6 @@
 name: 'Redirects Unauthenticated User'
 type: module
-description: 'Handles the redirection of an unauthenticated user.'
+description: 'Handles the configurable redirection of an unauthenticated user.'
 core: 8.x
 package: 'Custom'
+configure: redirect_unauthenticated_user.admin_settings
