@@ -1,7 +1,7 @@
 redirect_unauthenticated_user.admin_settings:
   path: '/admin/config/system/redirect_unauthenticated_user/config'
   defaults:
-    _form: '\Drupal\redirect_unauthenticated_user\Form\Settings'
+    _form: '\Drupal\redirect_unauthenticated_user\Form\RedirectSettingsForm'
     _title: 'Redirect Unauthenticated Users'
   requirements:
     _permission: 'administer site configuration'
