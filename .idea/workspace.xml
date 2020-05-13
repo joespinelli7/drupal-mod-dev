@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62a9c411-e5af-4259-b217-bc0ed76ac136" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/custom/redirect_unauthenticated_user/src/Form/RedirectSettingsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/custom/redirect_unauthenticated_user/src/Form/RedirectSettingsForm.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +185,8 @@
       <workItem from="1588168329880" duration="201000" />
       <workItem from="1588254758068" duration="242000" />
       <workItem from="1588341250613" duration="6585000" />
-      <workItem from="1588600400256" duration="208000" />
+      <workItem from="1588600400256" duration="541000" />
+      <workItem from="1588875254813" duration="3729000" />
     </task>
     <servers />
   </component>
@@ -200,6 +202,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1583784916410" />
+    <state x="578" y="288" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588880858968">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="288" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588880858968" />
     <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1581462300596">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -260,10 +266,6 @@
     </state>
     <state width="1638" height="345" key="GridCell.Tab.2.right/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581461884238" />
     <state width="1638" height="345" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1581462300598" />
-    <state x="-1733" y="-370" key="IDE.errors.dialog" timestamp="1580228656923">
-      <screen x="-2560" y="-625" width="2560" height="1417" />
-    </state>
-    <state x="-1733" y="-370" key="IDE.errors.dialog/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1580228656923" />
     <state x="-1813" y="-473" key="SettingsEditor" timestamp="1581459277114">
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
@@ -279,16 +281,16 @@
       <screen x="-2560" y="-625" width="2560" height="1417" />
     </state>
     <state x="-1803" y="-79" key="run.anything.popup/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1581016172966" />
-    <state x="497" y="166" width="670" height="501" key="search.everywhere.popup" timestamp="1588356953981">
+    <state x="497" y="166" width="670" height="501" key="search.everywhere.popup" timestamp="1588877349124">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="-1803" y="-401" width="670" height="676" key="search.everywhere.popup/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1582231615864" />
-    <state x="497" y="166" width="670" height="501" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1588356953981" />
-    <state x="636" y="320" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588356957575">
+    <state x="497" y="166" width="670" height="501" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1588877349124" />
+    <state x="636" y="320" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588877353213">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="-1591" y="-193" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/-5120.-625.2560.1417/0.23.1680.1027/-2560.-625.2560.1417@-2560.-625.2560.1417" timestamp="1582231740946" />
-    <state x="636" y="320" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588356957575" />
+    <state x="636" y="320" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588877353213" />
   </component>
   <component name="regexState">
     <option name="map">
